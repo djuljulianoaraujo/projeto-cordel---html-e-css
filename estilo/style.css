@@ -36,9 +36,9 @@ header{
 
 header > h1{
     padding-top: 50px;
-    /* text-transform: uppercase; TRANSFORMA TUDO EM LETRA MAIUSCULA */
+  
     font-variant: small-caps;
-    /*font-variant: small-caps; TRANSFORMA TUDO EM LETRA MAIUSCULA e deixa a primeira letra de cada palavra maior que as demais*/
+    
     font-family: var(--fonte02);
     font-size:10vw;
    
@@ -106,3 +106,7 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
+/*font-variant: small-caps; TRANSFORMA TUDO EM LETRA MAIUSCULA e deixa a primeira letra de cada palavra maior que as demais*/
+
+  /* text-transform: uppercase; TRANSFORMA TUDO EM LETRA MAIUSCULA */
