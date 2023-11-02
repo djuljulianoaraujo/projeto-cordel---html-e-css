@@ -70,7 +70,6 @@ section > p {
     padding-left: 30px;
     font-family: var(--fonte03);
     font-size:3.5vw;
-
 }
 
 section.normal{
@@ -81,22 +80,31 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.567);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.799);
+    background-size: cover;
+    padding-left: 30px;
+    background-attachment: fixed;
 }
 
 section#img01{
-    background-image: url('../estilo/imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
+    background-position:right center ;
+    
 
 }
 
 section#img02{
-    background-image: url('../estilo/imagens/background002.jpg');
+    background-image: url('../imagens/background002.jpg');
+    
 }
 
 section.imagem >p{
     display: inline-block;
     padding: 5px;
     padding-left: 30px;
-    background-color: rgba(0, 0, 0, 0.416);
+    background-color: hsla(0, 0%, 0%, 0.53);
+    text-shadow: 2px 2px 0px black;
+    
     
 }
 
@@ -110,3 +118,10 @@ footer{
 /*font-variant: small-caps; TRANSFORMA TUDO EM LETRA MAIUSCULA e deixa a primeira letra de cada palavra maior que as demais*/
 
   /* text-transform: uppercase; TRANSFORMA TUDO EM LETRA MAIUSCULA */
+
+  /*
+  box-shadow: inset 6px 6px 13px 0px black;
+  SOMBRA INTERNA
+  */
+
+ 
